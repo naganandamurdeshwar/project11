@@ -1,10 +1,12 @@
 *{
+    padding: 0;
+    margin: 0;
     div{
         border: 2px solid red;
     }
 }
 .main{
-    height: 90vh;
+    height: 120vh;
     max-width: 100%;
     display: flex;
     flex-direction: column;
@@ -18,12 +20,25 @@
     flex-direction: column;
 }
 .mt1{
-    flex: 1;
+    flex: 2;
     display: flex;
-    align-items: center;
+    align-items:last baseline;
+
+}
+.text1{
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size: 40px;
 }
 .mt2{
     flex: 1;
+    display: flex;
+    align-items: self-start;
+}
+.text2{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #5c5858;
 }
 .top1{
     flex: 1;
@@ -47,6 +62,15 @@
     gap: 10px;
 
 }
+.m5{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.text3{
+    font-size: 15px;
+    color: #000000a5;
+}
 .bottom1{
     flex: 1;
     display: flex;
@@ -61,11 +85,52 @@
 }
 .bt2{
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.j1{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.j2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.j3{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.o1{
+    flex: 1;
+}
+.o2{
+    flex: 1;
+}
+.o3{
+    flex: 1;
 }
 .k1{
-    height: 280px;
+    height: 345px;
 }
 img{
     height: 100%;
     width: 100%;
+    object-fit: cover;
+}
+.text3{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #00000090;
+}
+.text4{
+    font-family: sans-serif;
+    color: #0000006c;
+}
+.text5{
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
 }
