@@ -3,6 +3,7 @@ import img1 from '../assets/img11.jpg'
 import img2 from '../assets/img12.jpg'
 import img3 from '../assets/img13.jpg'
 import img4 from '../assets/img4.jpeg'
+import img5 from '../assets/star.png'
 function New1(){
     return(
         <div className='main'>
@@ -32,10 +33,13 @@ function New1(){
                         </div>
                         <div className='j3'>
                          <div className='o1'>
-                            
+                         <img src={img5} alt="" className='s1'/>
+                         <p className='text6'>4.8</p>
                          </div>
                          <div className='o2'></div>
-                         <div className='o3'></div>
+                         <div className='o3'>
+                            <p className='text7'>$2,000</p>
+                         </div>
                         </div>
                     </div>
                 </div>
@@ -51,9 +55,14 @@ function New1(){
                         <p className='text4'>YouTubers</p>
                         </div>
                         <div className='j3'>
-                         <div className='o1'></div>
+                         <div className='o1'>
+                            <img src={img5} alt="" className='s1'/>
+                         <p className='text6'>4.9</p>
+                         </div>
                          <div className='o2'></div>
-                         <div className='o3'></div>
+                         <div className='o3'>
+                             <p className='text7'>$3,500</p>
+                         </div>
                         </div>
                     </div>
                 </div>
@@ -69,9 +78,14 @@ function New1(){
                             <p className='text4'>influencers</p>
                         </div>
                         <div className='j3'>
-                         <div className='o1'></div>
+                         <div className='o1'>
+                            <img src={img5} alt="" className='s1'/>
+                         <p className='text6'>4.6</p>
+                         </div>
                          <div className='o2'></div>
-                         <div className='o3'></div>
+                         <div className='o3'>
+                             <p className='text7'>$3,000</p>
+                         </div>
                         </div>
                     </div>
                 </div>
@@ -87,9 +101,14 @@ function New1(){
                              <p className='text4'>Comedians</p>
                         </div>
                         <div className='j3'>
-                         <div className='o1'></div>
+                         <div className='o1'>
+                            <img src={img5} alt="" className='s1'/>
+                         <p className='text6'>4.8</p>
+                         </div>
                          <div className='o2'></div>
-                         <div className='o3'></div>
+                         <div className='o3'>
+                             <p className='text7'>$3,800</p>
+                         </div>
                         </div>
                     </div>
                 </div>
