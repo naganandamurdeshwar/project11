@@ -5,6 +5,7 @@ import img3 from '../assets/img13.jpg'
 import img4 from '../assets/img4.jpeg'
 import img5 from '../assets/star.png'
 import img6 from '../assets/clock.png'
+import img7 from '../assets/search.svg'
 function New1(){
     return(
         <div className='main'>
@@ -17,7 +18,12 @@ function New1(){
                 </div>
             </div>
             <div className='m2'>
-                <div className='m21'></div>
+                <div className='m21'>
+                    <div className='m211'>
+                    <img src={img7} alt="" className='l2' /> 
+                    <input type="text" name="" id="" placeholder='Search celebrities...' className='l3' />
+                    </div>
+                </div>
                 <div className='m22'></div>
                 <div className='m23'></div>
             </div>
@@ -27,6 +33,7 @@ function New1(){
             <div className='m4'>
                 <div className='bottom1'>
                     <div className='bt1'>
+                        <div className='p1'>Book Now</div>
                         <img src={img1} alt="" className='k1' />
                     </div>
                     <div className='bt2'>

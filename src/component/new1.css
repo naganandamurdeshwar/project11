@@ -52,6 +52,10 @@
 }
 .m21{
     flex: 5;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+
 }
 .m22{
     flex: 2;
@@ -188,3 +192,40 @@ img{
     font-family: sans-serif;
      color: #0000006c;
 }
+.m211{
+    height: 30px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    background-color: #e7dcdc;
+    border-radius: 8px;
+}
+.l2{
+    height: 15px;
+    width: 15px;
+    padding-left: 10px;
+}
+.l3{
+    width: 90%;
+    height: 100%;
+    outline: none;
+    border: none;
+    background-color:#e7dcdc;
+    border-left: 0;
+}
+
+.p1{
+    height: 30px;
+    width: 160px;
+    position:absolute;
+    display: flex;
+    top: 620px;
+    background-color:blueviolet;
+    border-radius: 8px;
+    align-items:center;
+    justify-content: center;
+    color:white;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+

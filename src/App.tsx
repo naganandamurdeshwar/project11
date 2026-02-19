@@ -1,4 +1,4 @@
-import Project from './component/new1.tsx'
+import Project from './component/New1.tsx'
 function App() {
 
   return (
