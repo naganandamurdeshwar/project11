@@ -53,7 +53,6 @@ function New1(){
             <div className='m4'>
                 <div className='bottom1'>
                     <div className='bt1'>
-                        <div className='p1'>Book Now</div>
                         <img src={img1} alt="" className='k1' />
                     </div>
                     <div className='bt2'>
@@ -106,7 +105,6 @@ function New1(){
                 </div>
                 <div className='bottom1'>
                     <div className='bt1'>
-                        <div className='p1'>Book Now</div>
                         <img src={img3} alt="" className='k1'/>
                     </div>
                     <div className='bt2'>
