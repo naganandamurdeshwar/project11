@@ -24,8 +24,28 @@ function New1(){
                     <input type="text" name="" id="" placeholder='Search celebrities...' className='l3' />
                     </div>
                 </div>
-                <div className='m22'></div>
-                <div className='m23'></div>
+                <div className='m22'>
+                 <select name="" id="" className='k4'>
+                    <option value="">All Categories</option>
+                    <option value="">Actors</option>
+                    <option value="">Influencers</option>
+                    <option value="">Youtubers</option>
+                    <option value="">Models</option>
+                    <option value="">TV Artists</option>
+                    <option value="">Athletes</option>
+                    <option value="">Chefs</option>
+                    <option value="">Singers</option>
+                    <option value="">Comedians</option>
+                 </select>
+                </div>
+                <div className='m23'>
+                    <select name="" id="" className='k4'>
+                    <option value="">Most Popular</option>
+                    <option value="">Price:Low to High</option>
+                    <option value="">Price:Hight to Low</option>
+                    <option value="">Highest Rated</option>
+                    </select>
+                </div>
             </div>
             <div className='m5'>
                 <p className='text3'>Showing 20 Celebrities</p>
@@ -86,6 +106,7 @@ function New1(){
                 </div>
                 <div className='bottom1'>
                     <div className='bt1'>
+                        <div className='p1'>Book Now</div>
                         <img src={img3} alt="" className='k1'/>
                     </div>
                     <div className='bt2'>
