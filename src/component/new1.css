@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     div{
-        border: px solid red;
+        border: 1px solid red;
     }
 }
 .main{
@@ -47,6 +47,17 @@
 }
 .m2{
     flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.m21{
+    flex: 5;
+}
+.m22{
+    flex: 2;
+}
+.m23{
+    flex: 2;
 }
 .m3{
     flex: 1;
@@ -171,4 +182,9 @@ img{
 .k2{
     height: 15px;
     width: 15px;
+}
+.text8{
+    font-size: 15px;
+    font-family: sans-serif;
+     color: #0000006c;
 }

@@ -16,7 +16,11 @@ function New1(){
                     <p className='text2'>Find the perfect celebrity for your special occasion</p>
                 </div>
             </div>
-            <div className='m2'></div>
+            <div className='m2'>
+                <div className='m21'></div>
+                <div className='m22'></div>
+                <div className='m23'></div>
+            </div>
             <div className='m5'>
                 <p className='text3'>Showing 20 Celebrities</p>
             </div>
@@ -39,7 +43,7 @@ function New1(){
                          </div>
                          <div className='o2'>
                             <img src={img6} alt="" className='k2' />
-                            <p>12-24hours</p>
+                            <p className='text8'>12-24hours</p>
                          </div>
                          <div className='o3'>
                             <p className='text7'>$2,000</p>
@@ -63,7 +67,10 @@ function New1(){
                             <img src={img5} alt="" className='s1'/>
                          <p className='text6'>4.9</p>
                          </div>
-                         <div className='o2'></div>
+                         <div className='o2'>
+                             <img src={img6} alt="" className='k2' />
+                            <p className='text8'>24-48hours</p>
+                         </div>
                          <div className='o3'>
                              <p className='text7'>$3,500</p>
                          </div>
@@ -86,7 +93,10 @@ function New1(){
                             <img src={img5} alt="" className='s1'/>
                          <p className='text6'>4.6</p>
                          </div>
-                         <div className='o2'></div>
+                         <div className='o2'>
+                             <img src={img6} alt="" className='k2' />
+                            <p className='text8'>24hours</p>
+                         </div>
                          <div className='o3'>
                              <p className='text7'>$3,000</p>
                          </div>
@@ -109,7 +119,10 @@ function New1(){
                             <img src={img5} alt="" className='s1'/>
                          <p className='text6'>4.8</p>
                          </div>
-                         <div className='o2'></div>
+                         <div className='o2'>
+                             <img src={img6} alt="" className='k2' />
+                            <p className='text8'>24hours</p>
+                         </div>
                          <div className='o3'>
                              <p className='text7'>$3,800</p>
                          </div>
