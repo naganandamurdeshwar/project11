@@ -4,6 +4,7 @@ import img2 from '../assets/img12.jpg'
 import img3 from '../assets/img13.jpg'
 import img4 from '../assets/img4.jpeg'
 import img5 from '../assets/star.png'
+import img6 from '../assets/clock.png'
 function New1(){
     return(
         <div className='main'>
@@ -36,7 +37,10 @@ function New1(){
                          <img src={img5} alt="" className='s1'/>
                          <p className='text6'>4.8</p>
                          </div>
-                         <div className='o2'></div>
+                         <div className='o2'>
+                            <img src={img6} alt="" className='k2' />
+                            <p>12-24hours</p>
+                         </div>
                          <div className='o3'>
                             <p className='text7'>$2,000</p>
                          </div>
