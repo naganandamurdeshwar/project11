@@ -99,6 +99,7 @@ function New1(){
                          </div>
                          <div className='o3'>
                              <p className='text7'>$3,500</p>
+                             <button className='button'>Book Now</button>
                          </div>
                         </div>
                     </div>
