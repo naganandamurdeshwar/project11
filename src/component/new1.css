@@ -199,6 +199,24 @@ img:hover {
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
 }
+.button1{
+    transform: translate(-50%,125%);
+    height: 20px;
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: blueviolet;
+    color:white;
+    position: absolute;
+    left:20px;
+    bottom: 0;
+    opacity: 0;
+    transition:0.3s ease-out;
+}
+img:hover .bottom1:hover{
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
 
 .text3 {
     font-family: sans-serif;

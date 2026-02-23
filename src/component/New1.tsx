@@ -6,6 +6,22 @@ import img4 from '../assets/img4.jpeg'
 import img5 from '../assets/star.png'
 import img6 from '../assets/clock.png'
 import img7 from '../assets/search.svg'
+import img8 from '../assets/2r1.jpeg'
+import img9 from '../assets/2r2.jpeg'
+import img10 from '../assets/2r3.jpeg'
+import img11 from '../assets/2r4.jpeg'
+import img12 from '../assets/3r1.png'
+import img13 from '../assets/3r2.jpg'
+import img14 from '../assets/3r3.png'
+import img15 from '../assets/3r4.webp'
+import img16 from '../assets/4r1.jpg'
+import img17 from '../assets/4r2.jpg'
+import img18 from '../assets/4r3.jpg'
+import img19 from '../assets/4r4.jpg'
+import img20 from '../assets/5r1.png'
+import img21 from '../assets/5r2.jpg'
+import img22 from '../assets/5r3.jpg'
+import img23 from '../assets/5r4.jpeg'
 function New1() {
     return (
         <div className='main'>
@@ -53,6 +69,7 @@ function New1() {
             <div className='m4'>
                 <div className='bottom1'>
                     <div className='bt1'>
+                        <button className='button1'>Book Now</button>
                         <img src={img1} alt="" className='k1' />
                     </div>
                     <div className='bt2'>
@@ -158,7 +175,9 @@ function New1() {
             </div>
             <div className='m4'>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                        <img src={img8} alt="" className='k1' />
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Karan Joshi</p>
@@ -182,7 +201,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                        <img src={img9} alt=""  className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Priya Sharma</p>
@@ -206,7 +227,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                        <img src={img10} alt=""  className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Rohan Verma</p>
@@ -230,7 +253,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                           <img src={img11} alt=""  className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Neha Kapoor</p>
@@ -256,7 +281,9 @@ function New1() {
             </div>
             <div className='m4'>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                        <img src={img12} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Pooja Rao</p>
@@ -280,7 +307,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img13} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Shreya Ghosh</p>
@@ -304,7 +333,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img14} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Kavya Reddy</p>
@@ -328,7 +359,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img15} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Rahul Nair</p>
@@ -354,7 +387,9 @@ function New1() {
             </div>
             <div className='m4'>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img16} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Rajesh Kumar</p>
@@ -378,7 +413,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img17} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Vikram Desai</p>
@@ -402,7 +439,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img18} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Aditya Malhotra</p>
@@ -426,7 +465,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img19} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Arjun Singh</p>
@@ -452,7 +493,9 @@ function New1() {
             </div>
             <div className='m4'>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img20} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Sanjay Rawat</p>
@@ -476,7 +519,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img21} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Chef Ramesh</p>
@@ -500,7 +545,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img22} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Simran kaur</p>
@@ -524,7 +571,9 @@ function New1() {
                     </div>
                 </div>
                 <div className='bottom1'>
-                    <div className='bt1'></div>
+                    <div className='bt1'>
+                         <img src={img23} alt="" className='k1'/>
+                    </div>
                     <div className='bt2'>
                         <div className='j1'>
                             <p className='text5'>Anjali bhat</p>
