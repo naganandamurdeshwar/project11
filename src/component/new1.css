@@ -213,25 +213,31 @@ img {
     opacity: 0;
     transition:0.3s ease-out;
 }
-.bottom1:hover img {
-    transform: scale(1.07);
-    transition: 0.6s;
-    object-fit: cover;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 10px;
-}
-.book-btn{
+
+
+.book-btn1{
     position:absolute;
-    bottom: 50px;
+    bottom: 115px;
     color:white;
     background:linear-gradient(to right,rgba(0, 0, 255, 0.788),rgb(131, 27, 227));
     border: none;
     height: 20px;
     width: 200px;
     border-radius: 5px;
-    right: 990px;
+    left: 50px;
+    opacity: 0;
 }
-
+.bottom1:hover .book-btn1{
+    opacity: 1;
+    z-index: 1;
+}
+.bottom1:hover img  {
+    transform: scale(1.07);
+    transition: 0.6s;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+}
 
 
 
@@ -367,10 +373,9 @@ img {
     .k4{
         width:100%;
     }
-    .book-btn{
-         top: 630px;
-          right: 50px; 
+    .book-btn1{
+         top: 700px;
+         left: 90px;
     }
 }
-
 
