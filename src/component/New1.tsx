@@ -68,9 +68,10 @@ function New1() {
             </div>
             <div className='m4'>
                 <div className='bottom1'>
+                      <button className='book-btn'>BOOK NOW</button>
                     <div className='bt1'>
-                        <button className='button1'>Book Now</button>
                         <img src={img1} alt="" className='k1' />
+                      
                     </div>
                     <div className='bt2'>
                         <div className='j1'>

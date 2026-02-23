@@ -3,7 +3,7 @@
     margin: 0;
 
     div {
-        border:px solid red;
+        border:1px solid red;
     }
 }
 
@@ -127,11 +127,11 @@
 .bt1 {
     flex: 3;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     box-shadow: 10px;
-    background-image: url(../assets/img11.jpg);
 }
 
 .bt2 {
@@ -184,21 +184,21 @@
 
 
 img {
-    height: 100%;
-    width: 100%;
+    height:140%;
+   width:100%;
     object-fit: cover;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     overflow: hidden;
 }
 
-img:hover {
+/* img:hover {
     transform: scale(1.07);
     transition: 0.6s;
     object-fit: cover;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 20px;
     border-top-left-radius: 10px;
-}
+} */
 .button1{
     transform: translate(-50%,125%);
     height: 20px;
@@ -213,10 +213,32 @@ img:hover {
     opacity: 0;
     transition:0.3s ease-out;
 }
-img:hover .bottom1:hover{
+.bottom1:hover img {
+    transform: scale(1.07);
+    transition: 0.6s;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 10px;
+}
+.book-btn{
+    position:absolute;
+    bottom: 50px;
+    color:white;
+    background:linear-gradient(to right,rgba(0, 0, 255, 0.788),rgb(131, 27, 227));
+    border: none;
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+    right: 990px;
+}
+
+
+
+
+/* img:hover .bottom1:hover{
     transform: translate(-50%,-50%);
     opacity: 1;
-}
+} */
 
 .text3 {
     font-family: sans-serif;
@@ -319,3 +341,36 @@ img:hover .bottom1:hover{
 .bottom2:hover {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+@media (max-width: 1000px) {
+    .m4{
+        flex-direction: column;
+    }
+    .j3{
+        flex-direction: column;
+    }
+    .main{
+        height: 100%;
+    }
+    .text1{
+        font-size: 30px;
+    }
+    .text2{
+        font-size: 15px;
+    }
+    .m2{
+        flex-direction: column;
+        gap: 2px;
+    }
+    .m211{
+        width: 100%;
+    }
+    .k4{
+        width:100%;
+    }
+    .book-btn{
+         top: 630px;
+          right: 50px; 
+    }
+}
+
+
