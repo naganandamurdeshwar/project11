@@ -369,7 +369,8 @@ function New1() {
                         </div>
                     </div>
                 </div>
-                <div className='bottom1'>
+                <div className='bottom12'>
+                    <button className='book-btn12'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img15} alt="" className='k1'/>
                     </div>
@@ -397,7 +398,8 @@ function New1() {
                 </div>
             </div>
             <div className='m4'>
-                <div className='bottom1'>
+                <div className='bottom13'>
+                     <button className='book-btn13'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img16} alt="" className='k1'/>
                     </div>
@@ -423,7 +425,8 @@ function New1() {
                         </div>
                     </div>
                 </div>
-                <div className='bottom1'>
+                <div className='bottom14'>
+                    <button className='book-btn14'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img17} alt="" className='k1'/>
                     </div>
@@ -449,7 +452,8 @@ function New1() {
                         </div>
                     </div>
                 </div>
-                <div className='bottom1'>
+                <div className='bottom15'>
+                     <button className='book-btn15'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img18} alt="" className='k1'/>
                     </div>
@@ -475,7 +479,8 @@ function New1() {
                         </div>
                     </div>
                 </div>
-                <div className='bottom1'>
+                <div className='bottom16'>
+                    <button className='book-btn16'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img19} alt="" className='k1'/>
                     </div>
@@ -503,7 +508,8 @@ function New1() {
                 </div>
             </div>
             <div className='m4'>
-                <div className='bottom1'>
+                <div className='bottom17'>
+                    <button className='book-btn17'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img20} alt="" className='k1'/>
                     </div>
@@ -529,7 +535,8 @@ function New1() {
                         </div>
                     </div>
                 </div>
-                <div className='bottom1'>
+                <div className='bottom18'>
+                    <button className='book-btn18'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img21} alt="" className='k1'/>
                     </div>
@@ -555,7 +562,8 @@ function New1() {
                         </div>
                     </div>
                 </div>
-                <div className='bottom1'>
+                <div className='bottom19'>
+                    <button className='book-btn19'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img22} alt="" className='k1'/>
                     </div>
@@ -581,7 +589,8 @@ function New1() {
                         </div>
                     </div>
                 </div>
-                <div className='bottom1'>
+                <div className='bottom20'>
+                    <button className='book-btn20'>BOOK NOW</button>
                     <div className='bt1'>
                          <img src={img23} alt="" className='k1'/>
                     </div>
